@@ -20,15 +20,11 @@ if (detroitGC) {
 }
 // Write a for loop that starts at 0 and iterates by increments of 1 while i is less than the length of the lifeEvents array. Each iteration of the loop should log a new sentence from the lifeEvents array.
 
-// let text = "";
-// let i;
 for (i = 0; i < lifeEvents.length; i++) {
-  // text += lifeEvents[i] + "<br>";
-  console.log(lifeEvents.join('\r\n'));
+  console.log(lifeEvents.join("\r\n"));
   break;
 }
 var counter = 0;
-// let randomNumber = Math.round(Math.random()*10) + 1;
 while (true) {
   let randomNumber = Math.round(Math.random() * 10) + 1;
   if (randomNumber != 5) {
@@ -42,4 +38,3 @@ while (true) {
     break;
   }
 }
-// console.log(Math.floor(Math.random()*10));
